@@ -1,0 +1,21 @@
+<menu>
+    <menuitem label='MENU'>
+        <icon>fa:caret-down fa-fw</icon>
+        <menu>
+            <menuitem label='Home'>
+                <icon>fa:home fa-fw</icon>
+                <action>WelcomeView</action>
+            </menuitem>
+
+            <menuitem label='Products'>
+                <icon>fa:gift fa-fw</icon>
+                <action>ProductFormList</action>
+            </menuitem>
+
+            <menuitem label='Tags'>
+                <icon>fa:tags fa-fw</icon>
+                <action>TagFormList</action>
+            </menuitem>
+        </menu>
+    </menuitem>
+</menu>
